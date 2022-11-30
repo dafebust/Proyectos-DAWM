@@ -1,0 +1,58 @@
+body{
+  background-color: rgb(105, 51, 51);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-container{
+  margin: 150px auto;
+  width: 600px;
+}
+
+table{
+  background-color: white;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,td {
+  border: solid 1px black;
+  padding: 0;
+}
+
+thead{
+  background-color: aquamarine;
+  border-bottom: solid 5px #0F362D;
+  color: white;
+}
+
+/* Sección para el gráfico 3d */
+
+#custom-effect tbody td {
+  margin-inline-start: 10px;
+  margin-inline-end: 20px;
+}
+#custom-effect tbody td:before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 100%;
+  height: 10px;
+  transform: skewX(-45deg);
+  transform-origin: top;
+  background-color: lightgrey;
+}
+#custom-effect tbody td:after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  right: -10px;
+  width: 10px;
+  height: 100%;
+  transform: skewY(-45deg);
+  transform-origin: top;
+  background-color: lightgrey;
+}
+
+/* Fin de sección Gráfico 3d */
