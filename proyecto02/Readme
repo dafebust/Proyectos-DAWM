@@ -1,1 +1,5 @@
 Descripcion del proyecto 02
+
+En este proyecto, se busca reflejar la cantidad de nuevos pacientes que el Covid-19 ha traído hasta la fecha. 
+Para ello se consume la API de : https://api.covid19api.com/
+De esta manera, tenemos una gráfica que nos indica los valores deseados.
