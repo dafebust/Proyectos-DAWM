@@ -22,12 +22,16 @@ function traerGrafica(name_country){
         
             const ctx = document.getElementById('myChart');
             new Chart(ctx, {
-            type: 'line',
+            type: 'doughnut',
             data: {
               labels: ['Nuevos casos', 'Total casos', 'Nuevas muertes', 'Total muertes'],
               datasets: [{
                 label: 'Cantidad de personas: ',
-                backgroundColor: "rgb(0,0,0)",
+                backgroundColor: [
+                'rgb(255, 99, 132)',
+                'rgb(54, 162, 235)',
+                'rgb(255, 205, 86)',
+                'rgb(55, 25, 66)'],
                 borderColor: "rgb(0,255,0",
                 data: [n_c, t_c , n_d, t_d],
                 borderWidth: 1
