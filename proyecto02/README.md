@@ -13,4 +13,5 @@ los datos 'Nuevos casos', 'Total casos', 'Nuevas muertes', 'Total muertes'.
 
 Este modelo nos permite ocultar los datos que abarcan mayor cantidad, para poder apreciar mejor los datos menores. Para este ejemplo 
 utilizo "China" ya que se aprecia mejor.
+
 ![](https://github.com/dafebust/Proyectos-DAWM/blob/main/proyecto02/Captura%20de%20Pantalla%202022-11-30%20a%20la(s)%2002.03.34.png)
