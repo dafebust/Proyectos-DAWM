@@ -46,6 +46,34 @@ function traerGrafica(name_country){
             }
           });
 
+          
+          const ctz = document.getElementById('myChart2');
+            new Chart(ctz, {
+            type: 'polarArea',
+            data: {
+              labels: ['Nuevos casos', 'Total casos', 'Nuevas muertes', 'Total muertes'],
+              datasets: [{
+                label: 'Cantidad de personas: ',
+                borderColor: "rgb(0,255,0",
+                data: [n_c, t_c , n_d, t_d],
+                backgroundColor: [
+                  'rgb(255, 99, 132)',
+                  'rgb(75, 192, 192)',
+                  'rgb(255, 205, 86)',
+                  'rgb(201, 203, 207)'
+                ],
+
+                borderWidth: 1
+              }]
+            },
+            options: {
+              scales: {
+                y: {
+                  beginAtZero: true
+                }
+              }
+            }
+          });
 
         }
 
