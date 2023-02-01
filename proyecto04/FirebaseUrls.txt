@@ -1,0 +1,1 @@
+https://cliente-ventas-default-rtdb.firebaseio.com/collection.json
